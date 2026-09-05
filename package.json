@@ -1,0 +1,26 @@
+{
+  "name": "desafio-python-code",
+  "version": "1.0.0",
+  "description": "Aprenda Python resolvendo desafios de programação. 🐍 Desafio Python Code",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --experimental-vm-modules tests/run-tests.mjs",
+    "test:e2e": "npm run build && node scripts/e2e-smoke.mjs"
+  },
+  "keywords": [
+    "python",
+    "aprendizado",
+    "desafios",
+    "educacional",
+    "pwa"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "puppeteer-core": "^25.10.0",
+    "pyodide": "^314.0.6",
+    "vite": "^6.3.5"
+  }
+}
