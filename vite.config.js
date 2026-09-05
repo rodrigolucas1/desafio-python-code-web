@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/desafio-python-code/',
+  base: '/desafio-python-code-web/',
   server: {
     port: 5173,
     strictPort: false,
