@@ -1,0 +1,42 @@
+{
+  "name": "Desafio Python Code",
+  "short_name": "Python Code",
+  "description": "Aprenda Python resolvendo desafios de programação.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#3776AB",
+  "background_color": "#f1f5f9",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "assets/icons/icon-16.png", "sizes": "16x16", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-32.png", "sizes": "32x32", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-48.png", "sizes": "48x48", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-72.png", "sizes": "72x72", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-96.png", "sizes": "96x96", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-128.png", "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-256.png", "sizes": "256x256", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Próximo desafio",
+      "short_name": "Praticar",
+      "description": "Abrir o próximo desafio de Python",
+      "url": "./#/desafio/1",
+      "icons": [{ "src": "assets/icons/icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Aprendizado",
+      "short_name": "Aprender",
+      "description": "Consultar os conceitos de Python",
+      "url": "./#/aprendizado",
+      "icons": [{ "src": "assets/icons/icon-96.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ]
+}
